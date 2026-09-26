@@ -3,7 +3,8 @@
 # Singularity
 
 Singularity is an AIO fugu exploit root app for Meta VR headsets. \
-Root in 3-10 seconds enjoy ;)
+Root in 3-10 seconds enjoy ;) \
+The source for fugu can be found [here](https://github.com/Henry1887/fuguquest).
 
 This supports Quest 2, pro, 3, and 3s currently. The process can take a bit to achieve root access. If you are having issues with it failing. Please power the device off and on and try again.
 
