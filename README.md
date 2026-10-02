@@ -58,11 +58,18 @@ If you get a black screen after root, and you had magisk modules installed befor
 - App manager (Installing/Uninstalling/Launching)
 - Built in Magisk/Vector module manager
 
-## Installation
+## Installation (ADB Method)
 
 Download the latest APK from [releases](https://github.com/Lumince/singularity/releases), and sideload it with "**adb install -g Singularity.apk**"
 
 "-g" will grant the needed "WRITE_SECURE_SETTINGS" permission so Singularity can enable Wireless ADB on the device.
+
+## Installation (Quest Only Method)
+Note: This is riskier because we are granting the quest internet access before updates have been blocked
+1. In the quest web browser download the latest APK from [releases](https://github.com/Lumince/singularity/releases)
+2. IMMEDIATELY disconnect from wifi and forget the network.
+3. In the Quest file explorer find the downloaded apk, hit the three dots > Open With > Package Installer
+4. Follow the prompts to allow from unknown sources & install.
 
 ## Frida
 
