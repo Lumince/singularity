@@ -76,10 +76,10 @@ Note: This is riskier because we are granting the quest internet access before u
 This repo contains Frida-Server, source is [here](https://github.com/frida/frida)
 
 ## CONFIRMED LATEST BUILDS
-Quest 3 (Eureka) [52433670036000520](https://files.cocaine.trade/firmware/meta/Quest%203/q3_52433670036000520.zip) /
-Quest 3s (Panther) 3814840024700610 (Not current on cocaine) /
-Quest 2 (Hollywood) [52242990024200150](https://files.cocaine.trade/firmware/meta/Quest%202/q2_52242990024200150.zip) /
-Quest Pro (Seacliff) [51503870024400340](https://files.cocaine.trade/firmware/meta/Quest%20Pro/QPro_51503870024400340.zip) /
+Quest 3 (Eureka) 52433670036000520 /
+Quest 3s (Panther) 3814840024700610 /
+Quest 2 (Hollywood) 52242990024200150
+Quest Pro (Seacliff) 51503870024400340
 
 Find out your incremental with this command `adb shell getprop ro.build.version.incremental`
 
