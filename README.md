@@ -13,13 +13,16 @@ I take no responsibility with what you do with your headset. Anything you do wit
 
 This is meant too help people use their headsets how they please without Meta breathing down their neck watching them constantly and restricting what they can and can't do with their hardware.
 
-## Usage
-1. Install the app with ADB with the command `adb install -g Singularity.apk`
-2. Setup Wireless ADB (The app will tell you how too)
-3. Press Root Now (If it stops and Root Now is no longer greyed out, press it again)
-4. Once you gain root, it will soft reboot. Don't try to root again.
-5. Check If an app called Singularity-Magisk is in Unknown Sources
-6. If it is, open it and grant Singularity root in the Super User tab and close/reopen Singularity
+## Setup
+1. Open Singularity
+2. Setup Wireless ADB (Follow the guide that pops up)
+3. Before rooting, I recommend turning on the internet kill switch (along with `enable on boot` for it) in AIO Tweaks
+4. Press Root Now (If it stops and Root Now is no longer greyed out, press it again)
+5. Once you gain root, it will soft reboot. Don't try to root again.
+6. Check If an app called Singularity-Magisk is in Unknown Sources. If it is, open it and grant Singularity root in the Super User tab and close/reopen Singularity
+### If unknown sources is empty, you will need to launch singularity and magisk with adb shell (PC required)
+* Launch Singularity: `adb shell am start -n com.lumi.singularity/com.lumi.singularity.ui.activities.MainActivity`
+* Launch SL-Magisk: `adb shell am start -n com.singularity.magisk/com.topjohnwu.magisk.ui.MainActivity`
 
 If you get a black screen after root, and you had magisk modules installed before using Fugu, run this command on PC with root shell. This is nothing to worry about. Its just a magisk hiccup.
 
