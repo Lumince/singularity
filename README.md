@@ -79,12 +79,13 @@ Note: This is riskier because we are granting the quest internet access before u
 This repo contains Frida-Server, source is [here](https://github.com/frida/frida)
 
 ## CONFIRMED LATEST BUILDS
-Quest 3 (Eureka) 52433670036000520 \
-Quest 3s (Panther) 3814840024700610 \
-Quest 2 (Hollywood) 52242990024200150 \
-Quest Pro (Seacliff) 51503870024400340
+Quest 3 (Eureka) 52433670036000520 (Fugu) \
+Quest 3s (Panther) 3814840024700610 (Fugu) \
+Quest 2 (Hollywood) 52371960014100150 (Kugel) \
+Quest Pro (Seacliff) 51583910014400340(Kugel)
 
-Find out your incremental with this command `adb shell getprop ro.build.version.incremental`
+Find out your incremental with this command `adb shell getprop ro.build.version.incremental` \
+### **If it says unsupported, but you are on or below one of the confirmed incrementals. Open the payloads tab and try selecting another exploit.**
 
 ## Credits
 - Henry for fugu exploit
